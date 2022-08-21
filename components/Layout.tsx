@@ -36,14 +36,16 @@ const Layout = ({children}: Props) => (
 
       <header className='titleContainer'> 
         <div className='navItemContainer'>
-        <Image
-        src="/black-circle-bear.jpg"
-        height={100}
-        width={100}
-        
 
-        >
-        </Image>
+
+          <div className='circleBearContainer'>
+
+            <Image
+            src = "/black-circle-bear.jpg"
+            layout='fill'
+            />
+
+          </div>
 
         
 

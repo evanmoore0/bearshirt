@@ -1,6 +1,8 @@
 import products from '../data/products'
 import { formatCurrencyString } from 'use-shopping-cart'
 import { useShoppingCart } from 'use-shopping-cart/react'
+import Image from 'next/image'
+
 
 const Products = () => {
   const { addItem, removeItem } = useShoppingCart()
@@ -9,7 +11,10 @@ const Products = () => {
     <section className="products">
       {products.map((product) => (
         <div key={product.id} className="product">
-          <img src={product.image} alt={product.name} />
+          <Image src={product.image} alt={product.name} 
+          width = {100}
+          height = {100}
+          />
           <h2>{product.name}</h2>
           <p className="price">
             {formatCurrencyString({

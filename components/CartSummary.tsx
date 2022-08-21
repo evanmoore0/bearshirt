@@ -40,7 +40,6 @@ const CartSummary = () => {
 
 
     redirectToCheckout({ sessionId: response.id })
-    console.log(response.id)
   }
 
   return (

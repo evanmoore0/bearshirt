@@ -3,13 +3,27 @@ import Link from 'next/link'
 import Layout from '../components/Layout'
 import Image from 'next/image'
 import Head from 'next/head'
+import ReactPlayer from 'react-player'
 
 const IndexPage: NextPage = () => {
   return (
 
 
     <Layout>
-      
+      <div style={{width: "100%", height: "100%", display: "flex", justifyContent: 'center',alignItems: 'center'}}>
+        <ReactPlayer
+                  playing
+
+          style={{
+              borderRadius: "2vw",
+              overflow: "hidden",
+              position: "relative"
+          }}
+          width="60vw"
+          height="60vw"
+          url={`videos/IMG_4462.mp4`}
+        />
+      </div>
     </Layout>
     
     

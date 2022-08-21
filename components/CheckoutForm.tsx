@@ -40,7 +40,6 @@ const CheckoutForm = () => {
       // available to this file, so you can provide it as parameter here
       // instead of the {{CHECKOUT_SESSION_ID}} placeholder.
       sessionId: response.id,
-      cancelUrl: 'http://localhost:3000'
       
     })
     // If `redirectToCheckout` fails due to a browser or network

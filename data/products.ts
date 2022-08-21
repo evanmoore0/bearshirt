@@ -5,7 +5,7 @@ const product = [
     id: 'sku_GBJ2Ep8246qeeT',
     price: 400,
     image:
-      '../public/bearHoodie.png',
+      '/bearHoodie.png',
     attribution: 'Photo by Priscilla Du Preez on Unsplash',
     currency: 'USD',
   },
@@ -14,7 +14,7 @@ const product = [
     id: 'sku_GBJ2WWfMaGNC2Z',
     price: 100,
     image:
-      'https://images.unsplash.com/photo-1482012792084-a0c3725f289f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=225&q=80',
+      '/bearHoodie.png',
     attribution: 'Photo by Jonathan Pielmayer on Unsplash',
     currency: 'USD',
   },
