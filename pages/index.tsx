@@ -10,8 +10,8 @@ const IndexPage: NextPage = () => {
 
 
     <Layout>
-      <div style={{width: "100%", height: "100%", display: "flex", justifyContent: 'center',alignItems: 'center'}}>
-        <ReactPlayer
+      <div style={{width: "100%", height: "80vh", display: "flex", justifyContent: 'center', alignItems: 'center'}}>
+        {/* <ReactPlayer
                   playing
 
           style={{
@@ -22,7 +22,12 @@ const IndexPage: NextPage = () => {
           width="60vw"
           height="60vw"
           url={`videos/IMG_4462.mp4`}
-        />
+        /> */}
+        <p className='previewText'>
+
+          coming soon...
+
+        </p>
       </div>
     </Layout>
     

@@ -7,13 +7,13 @@ type Props = {
 const NavItem = ({link, title} : Props) => {
     return (
       
-        <Link
-        href = {link}
-        >
+        // <Link
+        // href = {link}
+        // >
             <h3 className="navItem">
                 {title}
             </h3>
-        </Link>
+        // </Link>
     )
   }
   

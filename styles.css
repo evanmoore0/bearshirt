@@ -84,6 +84,16 @@
   height: 6vh;
   position: relative
 }
+
+
+.previewText {
+  font-size: 3vw;
+  font-weight: bold;
+  font-family: 'Sawarabi Mincho', serif;
+  color: white;
+  z-index: 2;
+  position: relative;
+}
 /* .navContainer {
 
 } */
