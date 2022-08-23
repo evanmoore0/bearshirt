@@ -7,13 +7,13 @@ const Clothing = () => {
     return(
         <Layout>
 
-            <div className="testCont">
+            {/* <div className="testCont">
                 <Cart>
                     <CartSummary />
                     <Products />
                 </Cart>
 
-            </div>
+            </div> */}
             
 
         </Layout>
