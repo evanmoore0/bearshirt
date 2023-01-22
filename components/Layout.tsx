@@ -25,14 +25,14 @@ const Layout = ({children}: Props) => (
     
     
     <div className='pageContainer'>
+  
       <Image
       src="/bear-background.jpg"
 
       className='backgroundImage'
       layout='fill'
-      >
+      ></Image>
      
-      </Image> 
 
       <header className='titleContainer'> 
         <div className='navItemContainer'>
@@ -49,11 +49,17 @@ const Layout = ({children}: Props) => (
 
         
 
+        <Link
+        href={"/"}
+        >
         <h1
         className='bearTitle'
         >
           bearshirtbearshirt
         </h1>
+
+        </Link>
+      
         </div>
 
         <div className='navItemContainer'>
